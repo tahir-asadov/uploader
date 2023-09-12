@@ -1,0 +1,19 @@
+{
+  "name": "uploader",
+  "version": "1.0.0",
+  "description": "Uploader",
+  "main": "uploader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tahir-asadov/uploader.git"
+  },
+  "author": "Tahir Asadli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tahir-asadov/uploader/issues"
+  },
+  "homepage": "https://github.com/tahir-asadov/uploader#readme"
+}
