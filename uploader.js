@@ -23,14 +23,10 @@ class Uploader {
 
   addEvents() {
 
-    document.addEventListener('DOMContentLoaded', () => {
-
-      const fileInput = document.getElementById(this.fileInputId);
-      fileInput.addEventListener('change', (e) => {
-        this.generateList(e.target.files);
-      });
-
-    }, false);
+    const fileInput = document.getElementById(this.fileInputId);
+    fileInput.addEventListener('change', (e) => {
+      this.generateList(e.target.files);
+    });
 
   }
 
@@ -87,18 +83,16 @@ class Uploader {
 
     }, false);
 
-
     ajax.addEventListener("load", (e) => {
       
       this.uploading = false;
       this.fileList.shift();
       this.uploadFromList();
-      if(event.target.status == 200) {
+      if(e.target.status == 200) {
         this.completed(file.id, 'File uploaded!')
       }else {
         this.error(file.id, e.target.statusText)
       }
-
       
   }, false);
       
@@ -119,4 +113,5 @@ class Uploader {
   }
 
 }
+
 export default Uploader;
