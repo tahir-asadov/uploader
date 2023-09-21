@@ -71,6 +71,7 @@ class Uploader {
     ajax.addEventListener("error", (e) => {
 
       this.uploading = false;
+      this.fileList.shift();
       this.uploadFromList();
       this.error(file.id, 'Error occured!')
 
