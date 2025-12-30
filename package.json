@@ -1,5 +1,5 @@
 {
-  "name": "@tahir-asadli/uploader",
+  "name": "@tahir-asadov/uploader",
   "version": "1.0.3",
   "description": "",
   "main": "uploader.js",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tahir-asadov/uploader/issues"
   },
-  "homepage": "https://github.com/tahir-asadov/uploader#readme"
+  "homepage": "https://github.com/tahir-asadov/uploader#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
