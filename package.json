@@ -1,6 +1,6 @@
 {
-  "name": "@tahir-asadov/uploader",
-  "version": "1.0.3",
+  "name": "@tahir-asadli/uploader",
+  "version": "1.0.4",
   "description": "",
   "main": "uploader.js",
   "scripts": {
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tahir-asadov/uploader.git"
+    "url": "git+https://github.com/tahir-asadli/uploader.git"
   },
   "author": "Tahir Asadli",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tahir-asadov/uploader/issues"
+    "url": "https://github.com/tahir-asadli/uploader/issues"
   },
-  "homepage": "https://github.com/tahir-asadov/uploader#readme",
+  "homepage": "https://github.com/tahir-asadli/uploader#readme",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   }
